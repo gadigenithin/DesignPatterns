@@ -1,6 +1,6 @@
 package com.designpatterns.creational.singleton;
 
-public class Logger {
+public final class Logger {
 
 	private Logger() {
 
