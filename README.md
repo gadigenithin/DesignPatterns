@@ -8,10 +8,10 @@ This project showcases Java implementations of common design patterns, organized
 
 The project is organized as follows:
 
-<pre> ``` src/ 
+<pre> src/ 
  ├── creational/
  ├── structural
- └── behavioral ``` </pre>
+ └── behavioral </pre>
 
 
 Each folder contains sub-packages for individual design patterns.
