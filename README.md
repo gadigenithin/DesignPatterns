@@ -10,8 +10,8 @@ The project is organized as follows:
 
 <pre> src/ 
  ├── creational/
- ├── structural
- └── behavioral </pre>
+ ├── structural/
+ └── behavioral/ </pre>
 
 
 Each folder contains sub-packages for individual design patterns.
