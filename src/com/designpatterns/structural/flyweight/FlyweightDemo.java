@@ -1,6 +1,6 @@
 package com.designpatterns.structural.flyweight;
 
-public class Garden {
+public class FlyweightDemo {
 
 	public static void main(String[] args) {
 		var sunFlower1 = FlowerFactory.createFlower("SunFlower");
@@ -23,4 +23,3 @@ public class Garden {
 	}
 
 }
-

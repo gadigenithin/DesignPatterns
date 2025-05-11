@@ -1,6 +1,6 @@
 package com.designpatterns.structural.composite;
 
-public class Client {
+public class CompositeDemo {
 
 	public static void main(String[] args) {
 

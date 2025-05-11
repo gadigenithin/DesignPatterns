@@ -1,6 +1,6 @@
 package com.designpatterns.structural.bridge;
 
-public class Client {
+public class BridgeDemo {
 
 	public static void main(String[] args) {
 

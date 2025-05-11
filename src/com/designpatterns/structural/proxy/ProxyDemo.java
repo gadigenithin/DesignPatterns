@@ -1,7 +1,6 @@
 package com.designpatterns.structural.proxy;
 
-
-public class Client {
+public class ProxyDemo {
 
 	public static void main(String[] args) {
 

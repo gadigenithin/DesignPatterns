@@ -1,6 +1,6 @@
 package com.designpatterns.structural.facade;
 
-public class Client {
+public class FacadeDemo {
 
 	public static void main(String[] args) {
 
