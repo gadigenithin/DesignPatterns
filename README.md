@@ -8,42 +8,46 @@ This project showcases Java implementations of common design patterns, organized
 
 The project is organized as follows:
 
-src/
-├── creational/
-├── structural/
-└── behavioral/
+<pre> ``` src/ ├── creational/ ├── structural/ └── behavioral/ ``` </pre>
 
 
 Each folder contains sub-packages for individual design patterns.
 
-### Creational Patterns
-1. **Singleton**: Ensures a single instance of a class.
-2. **Factory Method**: Creates objects through a common interface.
-3. **Abstract Factory**: Creates families of related objects.
-4. **Builder**: Constructs complex objects step by step.
-5. **Prototype**: Creates new objects by copying an existing one.
-6. **Object Pool**: Recycles expensive-to-create objects.
+### Creational Design Patterns
+Creational patterns are focused on object creation mechanisms, trying to create objects in the best way for the situation at hand.
 
-### Structural Patterns
-1. **Adapter**: Converts incompatible interfaces.
-2. **Bridge**: Separates abstraction from implementation.
-3. **Composite**: Combines objects into tree structures.
-4. **Decorator**: Adds functionality to objects dynamically.
-5. **Facade**: Simplifies complex systems.
-6. **Flyweight**: Shares objects to save memory.
-7. **Proxy**: Controls access to objects.
+1. **Singleton**: Ensures that a class has only one instance and provides a global point of access to it.
+2. **Factory Method**: Allows subclasses to alter the type of objects created by an interface.
+3. **Abstract Factory**: Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
+4. **Builder**: Separates the construction of a complex object from its representation, allowing the same construction process to create different representations.
+5. **Prototype**: Creates new objects by copying a prototypical instance.
+6. **Object Pool**: Recycles objects that are expensive to create, reducing overhead.
 
-### Behavioral Patterns
-1. **Chain of Responsibility**: Passes requests through a chain of handlers.
-2. **Command**: Encapsulates a request as an object.
-3. **Iterator**: Allows sequential access to collection elements.
-4. **Mediator**: Manages communication between objects.
-5. **Memento**: Captures and restores an object's state.
-6. **Observer**: Notifies multiple objects of state changes.
-7. **State**: Changes an object's behavior based on its state.
-8. **Strategy**: Makes algorithms interchangeable.
-9. **Template Method**: Defines the structure of an algorithm.
-10. **Visitor**: Adds operations to objects without modifying them.
+### Structural Design Patterns
+Structural patterns deal with the composition of classes and objects, focusing on simplifying relationships and making systems more manageable.
+
+1. **Adapter**: Enables incompatible interfaces to work together by translating one interface into another.
+2. **Bridge**: Decouples an abstraction from its implementation, allowing both to evolve independently.
+3. **Composite**: Organizes objects into tree structures to represent part-whole hierarchies.
+4. **Decorator**: Dynamically adds behavior to an object without affecting other objects of the same class.
+5. **Facade**: Provides a simplified interface to a complex system, making it easier to use.
+6. **Flyweight**: Reduces the number of objects created by sharing common data between multiple objects.
+7. **Proxy**: Provides a surrogate for another object to control access to it.
+
+
+### Behavioral Design Patterns
+Behavioral patterns focus on how objects communicate with each other, allowing more flexibility in communication between them.
+
+1. **Chain of Responsibility**: Passes a request through a chain of handlers where each one can process it or pass it along.
+2. **Command**: Encapsulates a request as an object, allowing parameterization of clients with different requests.
+3. **Iterator**: Provides a way to sequentially access elements in an aggregate object without exposing its internal structure.
+4. **Mediator**: Defines an object that handles communication between other objects to reduce dependencies between them.
+5. **Memento**: Captures and externalizes an object's internal state so it can be restored later without violating encapsulation.
+6. **Observer**: Establishes a one-to-many dependency between objects, where one object notifies others of state changes.
+7. **State**: Allows an object to change its behavior when its internal state changes, appearing as if it changed its class.
+8. **Strategy**: Defines a family of algorithms and makes them interchangeable, allowing the client to select the appropriate one at runtime.
+9. **Template Method**: Defines the skeleton of an algorithm and allows subclasses to implement certain steps.
+10. **Visitor**: Lets you add operations to objects without modifying their classes.
 
 ## How to Use
 
@@ -51,7 +55,7 @@ Each folder contains sub-packages for individual design patterns.
    ```bash
    git clone https://github.com/gadigenithin/DesignPatterns.git
 
-2. Explore the patterns in the **src folder.
+2. Explore the patterns in the `src` folder.
 
 3. To test a pattern, navigate to its sub-package and run the main class.
 
