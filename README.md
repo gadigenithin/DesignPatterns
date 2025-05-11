@@ -72,3 +72,12 @@ This project is open-source and available under the MIT License.
 - **Refactoring Guru**: [Design Patterns](https://refactoring.guru/design-patterns)
 - **LinkedIn Learning**: [Complete Guide to Java Design Patterns](https://www.linkedin.com/learning/complete-guide-to-java-design-patterns-creational-behavioral-and-structural/)
 
+## Design Pattern Definitions
+
+The definitions provided here are simplified and summarized from various widely recognized sources in software development, including:
+
+- [GeeksforGeeks - Design Patterns in Java](https://www.geeksforgeeks.org/design-patterns-in-java/)
+- [Refactoring Guru - Design Patterns](https://refactoring.guru/design-patterns)
+- *Design Patterns: Elements of Reusable Object-Oriented Software* by Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides (The "Gang of Four" book).
+
+
