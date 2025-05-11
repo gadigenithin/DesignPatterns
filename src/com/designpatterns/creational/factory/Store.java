@@ -2,7 +2,7 @@ package com.designpatterns.creational.factory;
 
 public class Store {
 
-	private static final VendingMachineFactory vendingMachine = new VendingMachineFactory();
+	private static final FactoryDemo vendingMachine = new FactoryDemo();
 
 	public static void main(String[] args) {
 

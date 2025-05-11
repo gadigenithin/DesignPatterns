@@ -2,9 +2,8 @@ package com.designpatterns.creational.prototype;
 
 import java.util.List;
 
-public class Cityscape {
+public class PrototypeDemo {
 
-    
 	public static void main(String[] args) {
 
 		BuildingType houseBuildingType = new BuildingType("House");

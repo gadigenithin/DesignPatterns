@@ -1,6 +1,6 @@
 package com.designpatterns.creational.abstractfactory;
 
-public class Client {
+public class AbstractFactoryDemo {
 
     public static void main(String[] args) {
         Application app = new Application();
