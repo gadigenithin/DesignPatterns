@@ -1,6 +1,6 @@
 package com.designpatterns.behavioral.observer;
 
-public class WeatherApp {
+public class ObserverDemo {
 
 	public static void main(String[] args) {
 

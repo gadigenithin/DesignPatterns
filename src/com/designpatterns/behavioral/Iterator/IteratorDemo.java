@@ -1,7 +1,6 @@
 package com.designpatterns.behavioral.Iterator;
 
-
-public class Client {
+public class IteratorDemo {
 
 	public static void main(String[] args) {
 		BookCollection bookCollection = new BookCollection();

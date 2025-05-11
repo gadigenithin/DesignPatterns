@@ -1,6 +1,6 @@
 package com.designpatterns.behavioral.strategy;
 
-public class Client {
+public class StrategyDemo {
 
 	public static void main(String[] args) {
 

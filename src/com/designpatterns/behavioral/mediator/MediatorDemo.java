@@ -1,6 +1,6 @@
 package com.designpatterns.behavioral.mediator;
 
-public class Main {
+public class MediatorDemo {
 
 	public static void main(String[] args) {
 

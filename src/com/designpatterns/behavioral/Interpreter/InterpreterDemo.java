@@ -1,6 +1,6 @@
 package com.designpatterns.behavioral.Interpreter;
 
-public class Client {
+public class InterpreterDemo {
 
 	public static void main(String[] args) {
 		Interpreter interpreter = new Interpreter();

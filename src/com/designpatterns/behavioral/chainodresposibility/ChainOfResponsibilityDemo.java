@@ -1,6 +1,6 @@
 package com.designpatterns.behavioral.chainodresposibility;
 
-public class Main {
+public class ChainOfResponsibilityDemo {
 
 	public static void main(String[] args) {
 

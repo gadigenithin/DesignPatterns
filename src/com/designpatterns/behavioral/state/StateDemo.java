@@ -1,10 +1,9 @@
 package com.designpatterns.behavioral.state;
 
-
-public class Client {
+public class StateDemo {
 
 	public static void main(String[] args) {
-		
+
 		VendingMachineContext vendingMachine = new VendingMachineContext();
 
 		vendingMachine.setState(new ReadyState());
